@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Kitzu.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  </head>
+  <style>
+    *{  margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.section-1{
+    width: 100%;
+    height: 593px;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    background-image: url(img2\ bg.avif);
+    background-size: cover;
+}
+nav{position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 40px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+ul li a i{
+    color: white;
+    margin-left: 1200px;
+   
+}
+.languages{
+  transform: rotate(90deg);
+}
+.typewriter {
+      font-family: monospace;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid;
+      width: 0;
+      animation: typing 4s steps(30, end) forwards, blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 90% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+    .bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2em;
+    }
+
+
+  </style>
+  <body>
+    <video class="bg-video" autoplay muted loop>
+      <source src="https://videos.pexels.com/video-files/3255275/3255275-sd_640_360_25fps.mp" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+      <!--Header starts from here-->
+      <header>
+    <div class="section-1">
+        <nav>
+            <img src="kitzu-logo.png" width="110px" class="logo" alt="logo">
+            <ul style="margin-left: 400px;">
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div style="position: fixed;" class="content">
+            <h1 class="display-2">Irsa Awan</h1>
+            <h2 class="typewriter" style="padding-left: 55px;">
+                I'm a Developer
+            </h2>
+        </div>
+       <div class="icons">
+        <ul style="list-style: none;">
+            <li style="margin-top: 300px;" ><a  href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61573895079562"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/irsa-mubarik-041a55357/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/shsh_exotic_herr/"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+       </div>
+    </div>
+      </header>
+      <!--Header ends here-->
+      <script src="https://kit.fontawesome.com/c0ad8b8dea.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

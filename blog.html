@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <style>
+    *{
+        background-color: black;
+        color: white;
+    }
+    h4,h5{
+        margin-top: 40px;
+    }
+    .line-container {
+      position: relative;
+      width: 10%;
+      height: 5px;
+      background:green;
+      margin-left: 550px;
+      margin-top: 30px;
+    }
+    .dot {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 3px;
+      background:white;
+      /* border-radius: 50%; */
+      animation: moveDot 0.4s linear infinite alternate;
+    }
+
+    @keyframes moveDot {
+      0% {
+        left: 0%;
+      }
+      100% {
+        left: 90%; /* Slightly less than 100% to stay inside */
+      }
+    }
+
+  </style>
+
+  <body>
+      
+    <!--Section-1 starts from here-->
+   <div class="container-fluid">
+    <p align="center" style="margin-top: 80px;">Check out my latest blog posts</p>
+    <h1 style="text-align: center;">My Blog</h1>
+    <div class="line-container">
+        <div class="dot"></div>
+      </div>
+    <div class="section-1">
+        <div class="row" style="margin-top: 90px;margin-left: 25px;">
+            <div class="col-md-4">
+                <img src="blog pic 1.jpg"  width="350px" alt="">
+                <h4>Top tools for Photographers</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                </div>
+            <div class="col-md-4">
+                <img src="blog pic 2.jpg"  width="350px" alt="">
+                <h4>Take a tour of my office</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="blog pic 3.jpg"  width="350px" alt="">
+                <h4>How I became a web designer</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 60px; margin-bottom: 80px;margin-left: 25px;">
+            <div class="col-md-4">
+                <img src="blog pic 4.jpg" width="350px" alt="">
+                <h5>How to improve work performance</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="blog pic 5.jpg"  width="350px" alt="">
+                <h4>How to work from home</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="blog pic 6.jpg"  width="350px" alt="">
+                <h5>How to enjoy your business trip</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+    <!--Section-1 ends here-->
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
