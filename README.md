@@ -1,12 +1,8 @@
-# Portfolio
+
 # 🌐 Personal Portfolio
 
 Welcome to my **Web Developer Portfolio**!  
 This portfolio showcases my skills, projects, and background in web development.
-
-## 🔗 Live Demo
-
-[Click here to view the live portfolio](https://your-portfolio-link.vercel.app)
 
 ---
 
@@ -15,17 +11,9 @@ This portfolio showcases my skills, projects, and background in web development.
 - HTML5  
 - CSS3 / Tailwind CSS  
 - JavaScript  
-- React.js / Laravel  
+-  Laravel  
 - Git & GitHub  
 - Responsive Web Design
-
----
-
-## 📷 Screenshots
-
-| Home Page | Projects Page |
-|-----------|----------------|
-| ![Home Screenshot](link-to-home-image.png) | ![Projects Screenshot](link-to-projects-image.png) |
 
 ---
 
@@ -37,12 +25,3 @@ This portfolio showcases my skills, projects, and background in web development.
 - Resume download option  
 - Contact section with working form or email link
 
----
-
-## 🚀 How to Run the Project
-
-```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
-npm install
-npm start
